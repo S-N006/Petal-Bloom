@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="mysheet.css">
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peta & Bloom Cart</title>
+</head>
+<body>
+
+     <div class="nav_menu">
+        <a href="index_HTML.html">Home</a>
+        <a href="About.html"> About</a>
+        <a href="Products.html">Products</a>
+        <a href="contact.html">contact</a>
+        <a class="active" href="cart.html">Cart</a>
+    </div>
+
+     
+<div class="cart">
+
+    <h1>Your Shopping Cart</h1>
+
+    <div class="cart_box">
+
+        <h2>Your Cart</h2>
+
+        <p id="cart_items">Your cart is empty.</p>
+
+        <hr>
+
+        <h3 id="total">Total: 0 SAR</h3>
+
+        <button onclick="checkout()">checkout</button>
+        <p id="checkout_message"></p>
+
+    </div>
+
+</div>
+
+<script>
+    showCart();
+</script>
+
+
+    <footer>
+    <p>Petal & Bloom</p>
+    <p>Beautiful flowers for every occasion</p>
+    <p>2026 Petal & Bloom</p>
+</footer>
+    
+</body>
+</html>

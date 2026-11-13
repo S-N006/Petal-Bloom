@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="mysheet.css">
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <div class="nav_menu">
+        <a href="index_HTML.html">Home</a>
+        <a href="About.html"> About</a>
+        <a href="Products.html">Products</a>
+        <a class="active" href="contact.html">contact</a>
+        <a href="cart.html">Cart</a>
+    </div>
+
+    <div class="contact">
+        <h1>Contact Us</h1>
+        <p>Have a question? We'd love to hear from you!</p>
+
+        <form onsubmit="return checkForm()">
+        <table>
+            <tr>
+                <td> Name </td>
+                <td> <input type="text" name="name" id="id"> </td>
+            </tr>
+
+             <tr>
+                <td> Email </td>
+                <td> <input type="email" name="email" id="email"> </td>
+            </tr>
+
+            <tr>
+                <td> Phone number </td>
+                <td> <input type="tel" name="Phone" id="Phone"></td>
+            </tr>
+            </table>
+
+            <br>
+            <input type="submit" value="Send Message">
+            <p id="form_message"></p>
+
+        </form>
+        
+        <hr>
+
+        <h2>Conatact Information</h2>
+        <p>Email: petalandbloom@exampl.com</p>
+        <p>Phone: +966 50 123 4567</p>
+        <p>Instagram: @petal&bloom</p>
+
+    </div>
+
+    <footer>
+    <p>Petal & Bloom</p>
+    <p>Beautiful flowers for every occasion</p>
+    <p>2026 Petal & Bloom</p>
+</footer>
+
+</body>
+</html>

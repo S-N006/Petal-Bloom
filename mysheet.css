@@ -1,0 +1,234 @@
+/*Home page */
+
+.header{
+    background-color: #F8E7EA;
+    text-align: center;
+    padding: 10px;
+}
+
+.header h1 {
+    color: #60434A;
+    font-size: 40px;
+}
+
+.nav_menu{
+    background-color: #B87987;
+    overflow: hidden;
+}
+
+ .nav_menu a { 
+    float: left; 
+    font-family: Arial, Helvetica, sans-serif; 
+    color:white; 
+    font-weight: bold; 
+    text-align: center; 
+    padding: 14px 20px; 
+    text-decoration: none; 
+    font-size: 17px;
+ } 
+
+ .nav_menu a:hover { 
+     background-color: #F8E7EA; 
+     color: #60434A; 
+ } 
+
+ /* home page pic*/
+ .home_pic {
+    text-align: center;
+    padding: 15px;
+}
+
+.home_pic h2 {
+    color: #B87987;
+    font-size: 24px;
+    margin: 5px;
+}
+
+.home_pic img {
+    width: 350px;
+    height: auto;
+    margin: 5px;
+}
+
+.home_pic p {
+    color: #60434A;
+    font-size: 17px;
+    margin: 5px;
+}
+
+ /* About page*/
+
+ .about {
+    text-align: center;
+    padding: 40px;
+}
+
+.about h1 {
+    color: #60434A;
+    font-size: 32px;
+}
+.about h2{
+    color: #B87987;
+    font-size: 24px;
+}
+
+.about p {
+    color: #60434A;
+    font-size: 17px;
+}
+
+/* About Page Picture */
+
+.about img {
+    width: 350px;
+    max-width: 100%;
+    height: auto;
+    margin: 20px;
+}
+
+/* products page*/
+
+.products {
+    text-align: center;
+    padding: 30px;
+}
+
+.products h1 {
+    color: #60434A;
+    font-size: 32px;
+}
+
+.products h2 {
+    color: #B87987;
+    font-size: 24px;
+}
+
+.products p {
+    color: #60434A;
+    font-size: 17px;
+}
+
+.products button {
+    background-color: #B87987;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.products button:hover {
+    background-color: #60434A;
+}
+.flower{
+    display: inline-block;
+    background-color: #F8E7EA;
+    width: 35%;
+    padding: 20px;
+    margin: 15px;
+    text-align: center;
+}
+
+/* Flower pictures*/
+.flower img {
+    width: 200px;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* contact page*/
+.contact {
+    text-align: center;
+    padding: 40px;
+}
+
+.contact h1 {
+    color: #60434A;
+    font-size: 32px;
+}
+
+.contact p {
+    color: #60434A;
+    font-size: 17px;
+}
+
+.contact table {
+    margin: auto;
+    background-color: #F8E7EA;
+    padding: 20px;
+}
+
+.contact td {
+    padding: 10px;
+    text-align: left;
+}
+
+.contact input {
+    padding: 8px;
+}
+.contact h2 {
+    color: #B87987;
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.contact p {
+    color: #60434A;
+    font-size: 17px;
+}
+
+.contact hr {
+    border: 1px solid #B87987;
+    width: 70%;
+    margin: 30px auto;
+}
+
+/*shopping cart page*/
+
+.cart {
+    text-align: center;
+    padding: 60px;
+}
+
+.cart h1 {
+    color: #60434A;
+    font-size: 32px;
+}
+
+.cart p {
+    color: #60434A;
+    font-size: 17px;
+}
+
+.cart_box {
+    background-color: #F8E7EA;
+    padding: 25px;
+    width: 400px;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 20px auto;
+}
+
+.cart_box h2 {
+    color: #B87987;
+    font-size: 24px;
+}
+
+.cart_box h3 {
+    color: #60434A;
+    font-size: 20px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #B87987;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    width: 100%;
+}
+
+footer p {
+    margin: 5px;
+}

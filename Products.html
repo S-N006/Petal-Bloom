@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="mysheet.css">
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petal & Bloom Products</title>
+</head>
+<body>
+
+    <div class="nav_menu">
+        <a href="index_HTML.html">Home</a>
+        <a href="About.html"> About</a>
+        <a class="active" href="Products.html">Products</a>
+        <a href="contact.html">contact</a>
+        <a href="cart.html">Cart</a>
+    </div>
+
+    <div class="products">
+        <h1>Our Flowers</h1>
+        <p>Explore our beautiful collection of flowers.</p>
+
+
+        <div class="flower">
+        <img src=".//red roses.jpeg" alt="Red Roses">
+        <h2>Red Roses</h2>
+        <p>Price: 100 SAR</p>
+        <button onclick="addToCart('Red Roses', 100)">Add to Cart</button>
+    </div>
+
+        <div class="flower">
+        <img src=".//white tulips.jpeg" alt="White Tulips">
+        <h2>White Tulips</h2>
+        <p>Price: 90 SAR</p>
+        <button onclick="addToCart('White Tulips', 90)">Add to Cart</button>
+    </div>
+
+        <br>
+
+        <div class="flower">
+        <img src=".//Sunflowers.jpeg" alt="Sun Flowers">
+        <h2>Sun Flowers</h2>
+        <p>Price: 80 SAR</p>
+        <button onclick="addToCart('Sunflowers', 80)">Add to Cart</button>
+    </div>
+
+        <div class="flower">
+        <img src=".//white roses.jpeg" alt="White Roses">
+        <h2>White Roses</h2>
+        <p>Price: 110 SAR</p>
+        <button onclick="addToCart('White Roses', 110)">Add to Cart</button>
+    </div>
+
+    <p id="cart_message"></p>
+   
+
+    </div>
+    
+    <footer>
+    <p>Petal & Bloom</p>
+    <p>Beautiful flowers for every occasion</p>
+    <p>2026 Petal & Bloom</p>
+</footer>
+
+</body>
+</html>
